@@ -1,4 +1,6 @@
 #include "functions.h"
+#include <stdio.h>
+#include <string.h>
 
 int factorial(int n)
 {
@@ -13,4 +15,20 @@ int factorial(int n)
         
         return result;
 
+}
+
+
+void reverseString(char *str) {
+    if (str == NULL) return;
+
+    int start = 0;
+    int end = strlen(str) - 1;
+
+    while (start < end) {
+        char temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+        start++;
+        end--;
+    }
 }
