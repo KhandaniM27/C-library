@@ -3,7 +3,7 @@
 int factorial(int n);
 void reverseString(char *str);
 int isPrime(int n);
-
+int lcm(int a, int b);
 #endif
 
 
