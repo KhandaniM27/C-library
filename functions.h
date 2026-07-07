@@ -7,6 +7,7 @@ int isPrime(int n);
 int gcd(int a, int b);
 int lcm(int a, int b);
 int isEven(int n);
+int reverseNumber(int n);
 
 
 #endif
