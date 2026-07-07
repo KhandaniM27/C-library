@@ -77,3 +77,8 @@ int lcm(int a , int b){
     b = abs(b);
     return (a/gcd(a,b))*b;
 }
+
+int isEven(int n) {
+    return (n % 2 == 0);
+}
+
